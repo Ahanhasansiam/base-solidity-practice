@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_task",
+						"type": "string"
+					}
+				],
+				"name": "setTask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "task",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/simple.sol": "Todo"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/simple.sol": {
+			"keccak256": "0xd8db9cc139ddcecafacbbe7c99a774d89f22ecbb600d62ced001d9bc16bcb237",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0db98cafdd71b89313f0e6a6a2a0107f284a5a0dbaabdfc97e9b6ed84a7080e",
+				"dweb:/ipfs/QmQpJHDdr9jqAvq86i4AMiXoRq9vTtSSghUWZG1h9W6Udk"
+			]
+		}
+	},
+	"version": 1
+}

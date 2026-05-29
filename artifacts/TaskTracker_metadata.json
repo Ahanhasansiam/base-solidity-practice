@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "completeTask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "completed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/task.sol": "TaskTracker"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/task.sol": {
+			"keccak256": "0x49a7270218a7de0807eb2af030efbce42d4ba9b1c1e0e389ccdd773bb9e9a358",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3503b105eb8d7fa6eb7bdb8a46fb5eacc8bbf84b84675000d91c8182fb28bcb8",
+				"dweb:/ipfs/QmfCy5n43rXWXSfUrj9oVFJ9K5ui5agHtYqKiV64uHVcH6"
+			]
+		}
+	},
+	"version": 1
+}

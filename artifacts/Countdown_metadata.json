@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrease",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/countdown.sol": "Countdown"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/countdown.sol": {
+			"keccak256": "0x2a365a8ea7266f5d367b2c090dd0d3c3c42902dd70f5a21f978d22679cdb3feb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9ac52a82ca74cb282ffcd8cc231a857978d260debaaad9a0323ffdc99167deef",
+				"dweb:/ipfs/Qmf7BWHTpQSWnMo8zoBDqTcXdAMX9YFcd9TpYmQLpK5kBS"
+			]
+		}
+	},
+	"version": 1
+}

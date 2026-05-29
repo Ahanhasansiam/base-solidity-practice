@@ -1,0 +1,114 @@
+{
+  "contracts/counter.sol": {
+    "__sources__": {
+      "contracts/counter.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Counter {\r\n    uint public count;\r\n\r\n    function increment() public {\r\n        count++;\r\n    }\r\n}",
+        "file": "contracts/counter.sol"
+      }
+    }
+  },
+  "contracts/cal.sol": {
+    "__sources__": {
+      "contracts/cal.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Calculator {\r\n\r\n    function add(uint a, uint b) public pure returns(uint) {\r\n        return a + b;\r\n    }\r\n\r\n    function subtract(uint a, uint b) public pure returns(uint) {\r\n        return a - b;\r\n    }\r\n}",
+        "file": "contracts/cal.sol"
+      }
+    }
+  },
+  "contracts/name.sol": {
+    "__sources__": {
+      "contracts/name.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract NameStorage {\r\n\r\n    string public name;\r\n\r\n    function setName(string memory _name) public {\r\n        name = _name;\r\n    }\r\n}",
+        "file": "contracts/name.sol"
+      }
+    }
+  },
+  "contracts/age.sol": {
+    "__sources__": {
+      "contracts/age.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract AgeStorage {\r\n\r\n    uint public age;\r\n\r\n    function setAge(uint _age) public {\r\n        age = _age;\r\n    }\r\n}",
+        "file": "contracts/age.sol"
+      }
+    }
+  },
+  "contracts/voting.sol": {
+    "__sources__": {
+      "contracts/voting.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Voting {\r\n\r\n    uint public votes;\r\n\r\n    function vote() public {\r\n        votes++;\r\n    }\r\n}",
+        "file": "contracts/voting.sol"
+      }
+    }
+  },
+  "contracts/ether.sol": {
+    "__sources__": {
+      "contracts/ether.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract EtherWallet {\r\n\r\n    receive() external payable {}\r\n\r\n    function getBalance() public view returns(uint) {\r\n        return address(this).balance;\r\n    }\r\n}",
+        "file": "contracts/ether.sol"
+      }
+    }
+  },
+  "contracts/owner.sol": {
+    "__sources__": {
+      "contracts/owner.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Owner {\r\n\r\n    address public owner;\r\n\r\n    constructor() {\r\n        owner = msg.sender;\r\n    }\r\n}",
+        "file": "contracts/owner.sol"
+      }
+    }
+  },
+  "contracts/bank.sol": {
+    "__sources__": {
+      "contracts/bank.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract SimpleBank {\r\n\r\n    uint public balance;\r\n\r\n    function deposit(uint amount) public {\r\n        balance += amount;\r\n    }\r\n\r\n    function withdraw(uint amount) public {\r\n        require(balance >= amount, \"Insufficient balance\");\r\n        balance -= amount;\r\n    }\r\n}",
+        "file": "contracts/bank.sol"
+      }
+    }
+  },
+  "contracts/donation.sol": {
+    "__sources__": {
+      "contracts/donation.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Donation {\r\n\r\n    uint public totalDonations;\r\n\r\n    function donate(uint amount) public {\r\n        totalDonations += amount;\r\n    }\r\n}",
+        "file": "contracts/donation.sol"
+      }
+    }
+  },
+  "contracts/user.sol": {
+    "__sources__": {
+      "contracts/user.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract UserRegistry {\r\n\r\n    mapping(address => string) public usernames;\r\n\r\n    function register(string memory _name) public {\r\n        usernames[msg.sender] = _name;\r\n    }\r\n}",
+        "file": "contracts/user.sol"
+      }
+    }
+  },
+  "contracts/countdown.sol": {
+    "__sources__": {
+      "contracts/countdown.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Countdown {\r\n\r\n    uint public number = 100;\r\n\r\n    function decrease() public {\r\n        require(number > 0, \"Already zero\");\r\n        number--;\r\n    }\r\n}",
+        "file": "contracts/countdown.sol"
+      }
+    }
+  },
+  "contracts/simple.sol": {
+    "__sources__": {
+      "contracts/simple.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Todo {\r\n\r\n    string public task;\r\n\r\n    function setTask(string memory _task) public {\r\n        task = _task;\r\n    }\r\n}",
+        "file": "contracts/simple.sol"
+      }
+    }
+  },
+  "contracts/task.sol": {
+    "__sources__": {
+      "contracts/task.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract TaskTracker {\r\n\r\n    bool public completed;\r\n\r\n    function completeTask() public {\r\n        completed = true;\r\n    }\r\n}",
+        "file": "contracts/task.sol"
+      }
+    }
+  },
+  "contracts/address.sol": {
+    "__sources__": {
+      "contracts/address.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract AddressSaver {\r\n\r\n    address public savedAddress;\r\n\r\n    function saveAddress(address _addr) public {\r\n        savedAddress = _addr;\r\n    }\r\n}",
+        "file": "contracts/address.sol"
+      }
+    }
+  }
+}

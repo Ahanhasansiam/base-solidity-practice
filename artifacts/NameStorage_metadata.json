@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/name.sol": "NameStorage"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/name.sol": {
+			"keccak256": "0x1c27df22e37f4ed9fb70ba5d39828a5aa3fe07c32651e364e8868ff6a401f70c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://470edf792575a87efff44ddf038f5ab9c21b076d09cf5dbf673e8dbcc7e749c9",
+				"dweb:/ipfs/QmYyGTAgyMgcM4PsdNzUTCWfoZJArBHgEtrfLB5bDnP8R7"
+			]
+		}
+	},
+	"version": 1
+}

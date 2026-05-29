@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "saveAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "savedAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/address.sol": "AddressSaver"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/address.sol": {
+			"keccak256": "0x390700fabd0d4ec1cec484a0f64ece48a3d60608289d9c5edc5b5e1dad8a014c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cbe984eaa1fbdb68cfb81be8faea7e2156257650bbb8b8269e868b73f18ece91",
+				"dweb:/ipfs/QmfKKq9c6CBbuDXVZx2KdP3VBjhzUZtubetQ9EsCPHdwZs"
+			]
+		}
+	},
+	"version": 1
+}

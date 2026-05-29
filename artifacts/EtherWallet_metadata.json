@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ether.sol": "EtherWallet"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ether.sol": {
+			"keccak256": "0xe075c7b6f214ecd7f785133692a2a14d0b7f4a22c1e2a4c61de6fb4854cfa0c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b16809dac7fc8867aa1d8f048e3932459c039b0e1e85cd516f5f6fc5451dd038",
+				"dweb:/ipfs/QmUD1UFNDjFLpnMSx38xsHGpr5Xgf8xPPcHjXyAcdjCQbp"
+			]
+		}
+	},
+	"version": 1
+}
